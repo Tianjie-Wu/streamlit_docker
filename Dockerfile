@@ -2,7 +2,7 @@
 
 FROM python:3.10
 
-WORKDIR /code
+WORKDIR /home/app
 
 COPY ./requirements.txt ./requirements.txt
 
