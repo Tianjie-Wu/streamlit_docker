@@ -4,6 +4,8 @@ FROM python:3.10
 
 WORKDIR /code
 
+COPY ./requirements.txt ./requirements.txt
+
 RUN apt-get update && apt-get install -y \
     build-essential \
     curl \
