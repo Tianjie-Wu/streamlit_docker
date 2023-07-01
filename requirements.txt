@@ -1,0 +1,7 @@
+altair
+pandas
+streamlit
+matplotlib
+xarray
+zarr
+cartopy
